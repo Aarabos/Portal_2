@@ -1,0 +1,60 @@
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\Steam\steamapps\common\Portal 2\portal2\materials
+Loading d:\steam\steamapps\common\portal 2\sdk_content\maps\portal_2\test_map_3.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-384.00 -704.00 128.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12277 bytes)
+Static prop models/props_bts/hanging_walkway_256a.mdl outside the map (0.00, -64.00, 0.00)
+Static prop models/catwalk_destruction/hanging_walkway_t_lowres.mdl outside the map (0.00, -192.00, 0.00)
+Static prop models/props_bts/hanging_walkway_256a.mdl outside the map (128.00, -192.00, 0.00)
+Static prop models/props_bts/walkway_destroyed_128a.mdl outside the map (320.00, -192.00, 0.00)
+Static prop models/props_bts/walkway_destroyed_128a.mdl outside the map (832.00, -192.00, 0.00)
+Static prop models/catwalk_destruction/hanging_walkway_t_lowres.mdl outside the map (896.00, -192.00, 0.00)
+Static prop models/catwalk_destruction/hanging_walkway_128a_lowres.mdl outside the map (896.00, -64.00, 0.00)
+Static prop models/catwalk_destruction/hanging_walkway_128a_lowres.mdl outside the map (896.00, 64.00, 0.00)
+Static prop models/catwalk_destruction/hanging_walkway_128a_lowres.mdl outside the map (896.00, 192.00, 0.00)
+Static prop models/catwalk_destruction/hanging_walkway_128a_lowres.mdl outside the map (896.00, -576.00, 0.00)
+Static prop models/catwalk_destruction/hanging_walkway_128a_lowres.mdl outside the map (896.00, -448.00, 0.00)
+Static prop models/catwalk_destruction/hanging_walkway_128a_lowres.mdl outside the map (896.00, 320.00, 0.00)
+Static prop models/catwalk_destruction/hanging_walkway_128a_lowres.mdl outside the map (896.00, -704.00, 0.00)
+Static prop models/props_bts/hanging_walkway_256a.mdl outside the map (-128.00, -192.00, 0.00)
+Static prop models/props_bts/hanging_walkway_l_lod1.mdl outside the map (-384.00, -192.00, 0.00)
+Static prop models/props_bts/hanging_stair_128.mdl outside the map (-384.00, -448.00, 64.00)
+Static prop models/props_bts/hanging_walkway_64c.mdl outside the map (-384.00, -608.00, 128.00)
+Static prop models/props_bts/hanging_walkway_l_lod1.mdl outside the map (-384.00, -704.00, 128.00)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 25 texinfos to 18
+Reduced 6 texdatas to 6 (153 bytes to 153)
+Writing d:\steam\steamapps\common\portal 2\sdk_content\maps\portal_2\test_map_3.bsp
+
+nummapplanes:     (    94 / 65536 )
+nummapbrushes:    (    36 /  8192 )
+nummapbrushsides: (   216 / 65536 )
+num_map_overlays: (     0 /   512 )
+nummodels:        (     1 /  1024 )
+num_entities:     (     2 / 16384 )
+
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\steam\steamapps\common\portal 2\sdk_content\maps\portal_2\test_map_3.bsp
+reading d:\steam\steamapps\common\portal 2\sdk_content\maps\portal_2\test_map_3.prt
+LoadPortals: couldn't read d:\steam\steamapps\common\portal 2\sdk_content\maps\portal_2\test_map_3.prt
