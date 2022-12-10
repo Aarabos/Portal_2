@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8997"
-	"mapversion" "280"
+	"mapversion" "282"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "280"
+	"mapversion" "282"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -18195,42 +18195,6 @@ entity
 }
 entity
 {
-	"id" "11465"
-	"classname" "info_player_start"
-	"angles" "0 0 0"
-	"spawnflags" "0"
-	"origin" "2880 -2304 560.35"
-	editor
-	{
-		"color" "0 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "11476"
-	"classname" "weapon_portalgun"
-	"angles" "0 0 0"
-	"CanFirePortal1" "1"
-	"CanFirePortal2" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"ShowingPotatos" "0"
-	"spawnflags" "0"
-	"StartingTeamNum" "0"
-	"origin" "2869.34 -2304 572.536"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
-	}
-}
-entity
-{
 	"id" "11837"
 	"classname" "info_overlay"
 	"angles" "0 0 0"
@@ -18754,10 +18718,10 @@ entity
 	"targetname" "portal_gun"
 	connections
 	{
-		"OnPlayerPickup" "door_8Open0-1"
+		"OnPlayerPickup" "bridge_4Enable0-1"
 		"OnPlayerPickup" "pedastal_gunSetParentpedestal_retracting_door0-1"
 		"OnPlayerPickup" "gun_rotatorKill0.1-1"
-		"OnPlayerPickup" "clear_portalsEnable0-1"
+		"OnPlayerPickup" "clear_portalsKill0.1-1"
 	}
 	"origin" "2867 -2976 431"
 	editor
