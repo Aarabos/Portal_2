@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8997"
-	"mapversion" "197"
+	"mapversion" "198"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "197"
+	"mapversion" "198"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -24722,7 +24722,7 @@ entity
 	"id" "5325"
 	"classname" "info_player_start"
 	"angles" "0 0 0"
-	"origin" "-64 -2624 256"
+	"origin" "0 0 -672"
 	editor
 	{
 		"color" "0 255 0"
@@ -24744,7 +24744,7 @@ entity
 	"ShowingPotatos" "0"
 	"spawnflags" "0"
 	"StartingTeamNum" "0"
-	"origin" "-64 -2624 256"
+	"origin" "0 0 -672"
 	editor
 	{
 		"color" "0 0 200"
